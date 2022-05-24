@@ -45,6 +45,7 @@ protected:
   std::string stream_name;
   int stream_width = 0;
   int stream_height = 0;
+  int stream_stride = 0;
   std::atomic<VisionStreamType> stream_type;
   QThread *vipc_thread = nullptr;
 
